@@ -40,5 +40,5 @@ class CheckHeader(Rule, Check):
             and context.header_parsed is False
             and context.history[-1] != "IsComment"
         ):
-            context.new_error("INVALID_HEADER", context.peek_token(0))
+            context.new_warning("INVALID_HEADER", context.peek_token(0))
             context.header_parsed = True
