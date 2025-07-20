@@ -14,12 +14,15 @@ from norminette.lexer import Lexer
 from norminette.registry import Registry
 from norminette.tools.colors import colors
 
+from colorama import init
+
 version_text = f"norminette {version('norminette')}"
 version_text += f", Python {platform.python_version()}"
 version_text += f", {platform.platform()}"
 
 
 def main():
+    init(autoreset=True)  # Initialize colorama for Windows compatibility
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "file",
