@@ -5,7 +5,7 @@ import re
 class CheckHeader(Rule, Check):
     def parse_header(self, context):
         if context.check_token(0, "MULT_COMMENT") is False:
-            context.new_error("INVALID_HEADER", context.peek_token(0))
+            context.new_warning("INVALID_HEADER", context.peek_token(0))
             context.header_parsed = True
             return
         context.header += context.peek_token(0).value + "\n"
@@ -40,5 +40,5 @@ class CheckHeader(Rule, Check):
             and context.header_parsed is False
             and context.history[-1] != "IsComment"
         ):
-            context.new_error("INVALID_HEADER", context.peek_token(0))
+            context.new_warning("INVALID_HEADER", context.peek_token(0))
             context.header_parsed = True
