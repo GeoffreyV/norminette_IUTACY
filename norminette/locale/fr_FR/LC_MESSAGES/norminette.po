@@ -1,0 +1,429 @@
+# Traduction française pour le paquet Norminette.
+# Copyright (C) 2025
+# Ce fichier est distribué sous la même licence que le paquet Norminette.
+# Traduit automatiquement, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: norminette 3.3.58\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-11 10:12-0300\n"
+"PO-Revision-Date: 2025-07-19 11:23+0200\n"
+"Last-Translator: Geoffrey Vaquette\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Spaces at beginning of line"
+msgstr "Espaces au début de la ligne"
+
+msgid "Found tab when expecting space"
+msgstr "Tabulation trouvée alors qu’un espace était attendu"
+
+msgid "Two or more consecutives spaces"
+msgstr "Deux espaces consécutifs ou plus"
+
+msgid "Two or more consecutives white spaces"
+msgstr "Deux blancs consécutifs ou plus"
+
+msgid "missing space before operator"
+msgstr "Espace manquant avant l’opérateur"
+
+msgid "missing space after operator"
+msgstr "Espace manquant après l’opérateur"
+
+msgid "extra space before operator"
+msgstr "Espace en trop avant l’opérateur"
+
+msgid "extra space after operator"
+msgstr "Espace en trop après l’opérateur"
+
+msgid "Missing space after parenthesis (brace/bracket)"
+msgstr "Espace manquant après une parenthèse (ou accolade/crochet)"
+
+msgid "Missing space before parenthesis (brace/bracket)"
+msgstr "Espace manquant avant une parenthèse (ou accolade/crochet)"
+
+msgid "Extra space after parenthesis (brace/bracket)"
+msgstr "Espace en trop après une parenthèse (ou accolade/crochet)"
+
+msgid "Extra space before parenthesis (brace/bracket)"
+msgstr "Espace en trop avant une parenthèse (ou accolade/crochet)"
+
+msgid "space after pointer"
+msgstr "Espace après le pointeur"
+
+msgid "Unexpected space/tab at line start"
+msgstr "Espace ou tabulation inattendu(e) au début de la ligne"
+
+msgid "bad spacing before pointer"
+msgstr "Espacement incorrect avant le pointeur"
+
+msgid "Found space when expecting tab before function name"
+msgstr "Espace trouvé au lieu d’une tabulation avant le nom de la fonction"
+
+msgid "extra tabs before function name"
+msgstr "Tabulations en trop avant le nom de la fonction"
+
+msgid "extra tabs before typedef name"
+msgstr "Tabulations en trop avant le typedef"
+
+msgid "missing tab before function name"
+msgstr "Tabulation manquante avant le nom de la fonction"
+
+msgid "missing tab before variable name"
+msgstr "Tabulation manquante avant le nom de la variable"
+
+msgid "Missing tab before typedef name"
+msgstr "Tabulation manquante avant le typedef"
+
+msgid "extra tab before variable name"
+msgstr "Tabulation en trop avant le nom de la variable"
+
+msgid "line too long"
+msgstr "Ligne trop longue"
+
+msgid "Expected parenthesis"
+msgstr "Parenthèse attendue"
+
+msgid "missing type qualifier or identifier in function arguments"
+msgstr "Qualificateur de type ou identifiant manquant dans les arguments"
+
+msgid "user defined identifiers should contain only lowercase characters, digits or '_'"
+msgstr "Les identifiants définis doivent contenir uniquement des minuscules, chiffres ou '_'"
+
+msgid "Missing tabs for indent level"
+msgstr "Tabulations manquantes pour le niveau d’indentation"
+
+msgid "Extra tabs for indent level"
+msgstr "Tabulations en trop pour le niveau d’indentation"
+
+msgid "Extra whitespaces for indent level"
+msgstr "Espaces en trop pour le niveau d’indentation"
+
+msgid "Found space when expecting tab"
+msgstr "Espace trouvé au lieu d’une tabulation"
+
+msgid "Function has more than 25 lines"
+msgstr "La fonction dépasse 25 lignes"
+
+msgid "Space on empty line"
+msgstr "Espace sur une ligne vide"
+
+msgid "Space before newline"
+msgstr "Espace avant un saut de ligne"
+
+msgid "Too many instructions on a single line"
+msgstr "Trop d’instructions sur une seule ligne"
+
+msgid "Missing space after preprocessor directive"
+msgstr "Espace manquant après une directive de préprocesseur"
+
+msgid "Unrecognized preprocessor statement"
+msgstr "Instruction de préprocesseur non reconnue"
+
+msgid "Preprocessor statement not at the beginning of the line"
+msgstr "Instruction de préprocesseur non en début de ligne"
+
+msgid "Preprocessor statement must only contain constant defines"
+msgstr "Les directives doivent contenir uniquement des définitions constantes"
+
+msgid "Expected EOL after preprocessor statement"
+msgstr "Fin de ligne attendue après une directive de préprocesseur"
+
+msgid "If preprocessor statement without endif"
+msgstr "Directive if sans endif correspondant"
+
+msgid "Elif preprocessor statement without if or elif"
+msgstr "Directive elif sans if ou elif correspondant"
+
+msgid "Ifdef preprocessor statement without endif"
+msgstr "Directive ifdef sans endif correspondant"
+
+msgid "Ifndef preprocessor statement without endif"
+msgstr "Directive ifndef sans endif correspondant"
+
+msgid "Else preprocessor statement without if or elif"
+msgstr "Directive else sans if ou elif correspondant"
+
+msgid "Endif preprocessor statement without if, elif or else"
+msgstr "Directive endif sans if, elif ou else correspondant"
+
+msgid "Bad preprocessor indentation"
+msgstr "Indentation incorrecte dans le préprocesseur"
+
+msgid "Multiline preprocessor statement is forbidden"
+msgstr "Les directives préprocesseur sur plusieurs lignes sont interdites"
+
+msgid "Preprocessor statements are only allowed in the global scope"
+msgstr "Les directives préprocesseur sont autorisées uniquement dans la portée globale"
+
+msgid "User defined typedef must start with t_"
+msgstr "Les typedef définis doivent commencer par t_"
+
+msgid "Structure name must start with s_"
+msgstr "Le nom de la structure doit commencer par s_"
+
+msgid "Enum name must start with e_"
+msgstr "Le nom de l’enum doit commencer par e_"
+
+msgid "Union name must start with u_"
+msgstr "Le nom du union doit commencer par u_"
+
+msgid "Global variable must start with g_"
+msgstr "Le nom des variables globales doit commencer par g_"
+
+msgid "Missing whitespace before typedef name"
+msgstr "Espace manquant avant le nom du typedef"
+
+msgid "Global variable present in file. Make sure it is a reasonable choice."
+msgstr "Variable globale détectée. Assurez-vous que cela est justifié."
+
+msgid "Logic operator at the end of line"
+msgstr "Opérateur logique à la fin d’une ligne"
+
+msgid "Empty line at start of file"
+msgstr "Ligne vide au début du fichier"
+
+msgid "Empty line in function"
+msgstr "Ligne vide dans une fonction"
+
+msgid "Empty line at end of file"
+msgstr "Ligne vide à la fin du fichier"
+
+msgid "Variable declared in incorrect scope"
+msgstr "Variable déclarée dans une portée incorrecte"
+
+msgid "Missing type in variable declaration"
+msgstr "Type manquant dans une déclaration de variable"
+
+msgid "Variable declaration not at start of function"
+msgstr "Déclaration de variable non placée au début de la fonction"
+
+msgid "Too many variables declarations in a function"
+msgstr "Trop de déclarations de variables dans une fonction"
+
+msgid "Too many functions in file"
+msgstr "Trop de fonctions dans un seul fichier"
+
+msgid "Expected newline after brace"
+msgstr "Retour à la ligne attendu après une accolade"
+
+msgid "Consecutive newlines"
+msgstr "Sauts de ligne consécutifs"
+
+msgid "Functions must be separated by a newline"
+msgstr "Les fonctions doivent être séparées par un saut de ligne"
+
+msgid "Variable declarations must be followed by a newline"
+msgstr "Les déclarations doivent être suivies d’un saut de ligne"
+
+msgid "Preprocessor statement must be followed by a newline"
+msgstr "Une directive doit être suivie d’un saut de ligne"
+
+msgid "Multiple assignations on a single line"
+msgstr "Plusieurs affectations sur une seule ligne"
+
+msgid "Multiple declarations on a single line"
+msgstr "Plusieurs déclarations sur une seule ligne"
+
+msgid "Declaration and assignation on a single line"
+msgstr "Déclaration et affectation sur une seule ligne"
+
+msgid "Forbidden control structure"
+msgstr "Structure de contrôle interdite"
+
+msgid "Missing space after keyword"
+msgstr "Espace manquant après un mot-clé"
+
+msgid "Return value must be in parenthesis"
+msgstr "La valeur de retour doit être entre parenthèses"
+
+msgid "Expected semicolon"
+msgstr "Point-virgule attendu"
+
+msgid "Expected tab"
+msgstr "Tabulation attendue"
+
+msgid "Empty function argument requires void"
+msgstr "Un argument vide de fonction doit utiliser void"
+
+msgid "Misaligned variable declaration"
+msgstr "Déclaration de variable mal alignée"
+
+msgid "Misaligned function declaration"
+msgstr "Déclaration de fonction mal alignée"
+
+msgid "Comment is invalid in this scope"
+msgstr "Commentaire invalide à cet endroit"
+
+msgid "Macro name must be capitalized"
+msgstr "Les macros doivent être en majuscules"
+
+msgid "Macro functions are forbidden"
+msgstr "Les fonctions macros sont interdites"
+
+msgid "Assignment in control structure"
+msgstr "Affectation dans une structure de contrôle"
+
+msgid "Variable length array forbidden"
+msgstr "Les tableaux de taille variable sont interdits"
+
+msgid "Function has more than 4 arguments"
+msgstr "La fonction a plus de 4 arguments"
+
+msgid ".c file includes are forbidden"
+msgstr "Les includes de fichiers .c sont interdits"
+
+msgid "Include must be at the start of file"
+msgstr "Les includes doivent être au début du fichier"
+
+msgid "Header protection must include all the instructions"
+msgstr "La protection d’en-tête doit englober toutes les instructions"
+
+msgid "Instructions after header protection are forbidden"
+msgstr "Les instructions après la protection d’en-tête sont interdites"
+
+msgid "Wrong header protection name"
+msgstr "Nom de protection d’en-tête incorrect"
+
+msgid "Header protection must be in uppercase"
+msgstr "La protection d’en-tête doit être en majuscules"
+
+msgid "Multiple header protections, only one is allowed"
+msgstr "Une seule protection d’en-tête est autorisée"
+
+msgid "Header protection not containing #define"
+msgstr "La protection d’en-tête doit contenir un #define"
+
+msgid "Ternaries are forbidden"
+msgstr "Les ternaires sont interdits"
+
+msgid "Too many values on define"
+msgstr "Trop de valeurs dans un define"
+
+msgid "Newline in declaration"
+msgstr "Retour à la ligne dans une déclaration"
+
+msgid "Multiple instructions in single line control structure"
+msgstr "Instructions multiples dans une seule ligne de contrôle"
+
+msgid "Newline in define"
+msgstr "Retour à la ligne dans un define"
+
+msgid "Missing identifier in typedef declaration"
+msgstr "Identifiant manquant dans un typedef"
+
+msgid "Label statements are forbidden"
+msgstr "Les labels sont interdits"
+
+msgid "Goto statements are forbidden"
+msgstr "Les instructions goto sont interdites"
+
+msgid "Preprocessors can only be used in the global scope"
+msgstr "Les directives préprocesseur sont limitées à la portée globale"
+
+msgid "Function prototype in incorrect scope"
+msgstr "Prototype de fonction dans une portée incorrecte"
+
+msgid "Statement is in incorrect scope"
+msgstr "Instruction dans une portée incorrecte"
+
+msgid "Incorrect values in define"
+msgstr "Valeurs incorrectes dans un define"
+
+msgid "Expected newline before brace"
+msgstr "Saut de ligne attendu avant une accolade"
+
+msgid "Expected newline after control structure"
+msgstr "Saut de ligne attendu après une structure de contrôle"
+
+msgid "Unrecognized variable type"
+msgstr "Type de variable non reconnu"
+
+msgid "Comment must be on its own line or at end of a line"
+msgstr "Un commentaire doit être sur sa propre ligne ou à la fin d'une ligne"
+
+msgid "Comma at line start"
+msgstr "Virgule en début de ligne"
+
+msgid "Mixed spaces and tabs"
+msgstr "Espaces et tabulations mélangés"
+
+msgid "Function attribute must be at the end of line"
+msgstr "L’attribut de fonction doit être en fin de ligne"
+
+msgid "Missing or invalid 42 header"
+msgstr "En-tête 42 manquant ou invalide"
+
+msgid "Missing space between include and filename"
+msgstr "Espace manquant entre include et le nom de fichier"
+
+msgid "Enums, structs and unions need to be defined only in global scope"
+msgstr "Les enums, structs et unions doivent être définis uniquement dans la portée globale"
+
+msgid "Typedef declaration are not allowed in .c files"
+msgstr "Les typedef ne sont pas autorisés dans les fichiers .c"
+
+msgid "Struct declaration are not allowed in .c files"
+msgstr "Les structs ne sont pas autorisés dans les fichiers .c"
+
+msgid "Union declaration are not allowed in .c files"
+msgstr "Les unions ne sont pas autorisés dans les fichiers .c"
+
+msgid "Enum declaration are not allowed in .c files"
+msgstr "Les enums ne sont pas autorisés dans les fichiers .c"
+
+msgid "Unexpected end of file (EOF) while parsing a char"
+msgstr "Fin de fichier inattendue lors de l’analyse d’un caractère"
+
+msgid "Unexpected end of line (EOL) while parsing a char"
+msgstr "Fin de ligne inattendue lors de l’analyse d’un caractère"
+
+msgid "Unexpected end of file (EOF) while parsing a multiline comment"
+msgstr "Fin de fichier inattendue dans un commentaire multiligne"
+
+msgid "Unexpected end of file (EOF) while parsing a string"
+msgstr "Fin de fichier inattendue dans une chaîne de caractères"
+
+msgid "Empty character constant"
+msgstr "Constante de caractère vide"
+
+msgid "Character constants can have only one character"
+msgstr "Les constantes de caractère ne doivent avoir qu’un seul caractère"
+
+msgid "This suffix is invalid"
+msgstr "Ce suffixe est invalide"
+
+msgid "Invalid suffix for float/double literal constant"
+msgstr "Suffixe invalide pour une constante float/double"
+
+msgid "Invalid binary integer literal"
+msgstr "Constante entière binaire invalide"
+
+msgid "Invalid octal integer literal"
+msgstr "Constante entière octale invalide"
+
+msgid "Invalid hexadecimal integer literal"
+msgstr "Constante entière hexadécimale invalide"
+
+msgid "Potential maximal munch detected"
+msgstr "Maximal munch potentiellement détecté"
+
+msgid "No hexadecimal digits followed by the \\x"
+msgstr "Aucun chiffre hexadécimal après \\x"
+
+msgid "Unknown escape sequence"
+msgstr "Séquence d’échappement inconnue"
+
+msgid "Exponent has no digits"
+msgstr "Exposant sans chiffre"
+
+msgid "Multiple dots in float constant"
+msgstr "Plusieurs points dans une constante flottante"
+
+msgid "Multiple 'x' in hexadecimal float constant"
+msgstr "Plusieurs ‘x’ dans une constante flottante hexadécimale"
